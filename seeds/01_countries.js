@@ -8,128 +8,164 @@ exports.seed = function(knex, Promise) {
         {
           countryName: 'Spain',
           currency: 'Euro',
-          attractionOne: 'The Alhambra',
-          attractionTwo: 'Sagrada Familia',
-          attractionThree: 'Mezquita of Cordoba'
+          primary_language: 'Spanish',
+          siteOne: 'Madrid',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Spain',
         },
         {
           countryName: 'France',
           currency: 'Euro',
-          attractionOne: 'Eiffel Tower',
-          attractionTwo: 'Louvre',
-          attractionThree: 'Notre-Dame de Paris'
+          primary_language: 'French',
+          siteOne: 'Notre-Dame',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/France'
         },
         {
           countryName: 'Russia',
           currency: 'Ruble',
-          attractionOne: 'Moscow Kremlin',
-          attractionTwo: 'Red Square',
-          attractionThree: 'Hermitage Museum'
+          primary_language: 'Russian',
+          siteOne: 'Red Square',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Russia'
         },
         {
           countryName: 'China',
           currency: 'Renminbi',
-          attractionOne: 'Forbidden City',
-          attractionTwo: 'Great Wall of China',
-          attractionThree: 'Terracotta Army'
+          primary_language: 'Chinese Simplified',
+          siteOne: 'Great Wall of China',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/China'
         },
         {
           countryName: 'Egypt',
           currency: 'Egyptian pound',
-          attractionOne: 'Pyramids of Giza',
-          attractionTwo: '',
-          attractionThree: ''
+          primary_language: 'Arabic',
+          siteOne: 'Great Pyramids of Giza',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Egypt'
         },
         {
           countryName: 'Turkey',
           currency: 'Lira',
-          attractionOne: 'Sultan Ahmed Mosque',
-          attractionTwo: 'Hagia Sophia',
-          attractionThree: ''
+          primary_language: 'Turkish',
+          siteOne: 'Istanbul',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Turkey'
         },
         {
           countryName: 'Greece',
           currency: 'Euro',
-          attractionOne: 'Acropolis of Athens',
-          attractionTwo: '',
-          attractionThree: ''
+          primary_language: 'Greek',
+          siteOne: 'Athens',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Greece'
         },
         {
           countryName: 'Japan',
           currency: 'Yen',
-          attractionOne: 'Mount Fuji',
-          attractionTwo: '',
-          attractionThree: ''
+          primary_language: 'Japanese',
+          siteOne: 'Tokyo',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Japan'
         },
         {
           countryName: 'Morocco',
           currency: 'Moroccan dirham',
-          attractionOne: 'Casablanca',
-          attractionTwo: '',
-          attractionThree: ''
+          primary_language: 'Arabic',
+          siteOne: 'Casablanca',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Morocco'
         },
         {
           countryName: 'Portugal',
           currency: 'Euro',
-          attractionOne: 'Porto',
-          attractionTwo: '',
-          attractionThree: ''
+          primary_language: 'Portuguese',
+          siteOne: 'Porto',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Portugal'
         },
         {
           countryName: 'Mexico',
           currency: 'Peso',
-          attractionOne: 'Tulum',
-          attractionTwo: '',
-          attractionThree: ''
+          primary_language: 'Spanish',
+          siteOne: 'Chichen Itza',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Mexico'
         },
         {
           countryName: 'Belize',
           currency: 'Belize dollar',
-          attractionOne: '',
-          attractionTwo: '',
-          attractionThree: ''
+          primary_language: 'Spanish',
+          siteOne: 'Ambergris Caye',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Belize'
         },
         {
           countryName: 'Brazil',
           currency: 'Real',
-          attractionOne: 'Ambergris Caye',
-          attractionTwo: 'Caracol',
-          attractionThree: ''
+          primary_language: 'Portuguese',
+          siteOne: 'Christ the Redeemer',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Brazil'
         },
         {
           countryName: 'Netherlands',
           currency: 'Euro',
-          attractionOne: 'Amsterdam',
-          attractionTwo: 'Van Gogh House',
-          attractionThree: ''
+          primary_language: 'Dutch',
+          siteOne: 'Van Gogh Museum',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Netherlands'
         },
         {
           countryName: 'Vietnam',
           currency: 'Dong',
-          attractionOne: 'Halong Bay',
-          attractionTwo: '',
-          attractionThree: ''
+          primary_language: 'Vietnamese',
+          siteOne: 'Ha Long Bay',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Vietnam'
         },
         {
           countryName: 'India',
           currency: 'Indian rupee',
-          attractionOne: 'Taj Mahal',
-          attractionTwo: 'Mahabodhi Temple',
-          attractionThree: 'Mysore Palace'
+          primary_language: 'Hindi',
+          siteOne: 'Taj Mahal',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/India'
         },
         {
           countryName: 'Germany',
           currency: 'Euro',
-          attractionOne: 'Cologne',
-          attractionTwo: 'Dresden',
-          attractionThree: ''
+          primary_language: 'German',
+          siteOne: 'Neuschwanstein Castle',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Germany'
         },
         {
           countryName: 'Italy',
           currency: 'Euro',
-          attractionOne: 'The Colosseum',
-          attractionTwo: 'Florence Cathedral',
-          attractionThree: ''
+          primary_language: 'Italian',
+          siteOne: 'Colosseum',
+          siteTwo: '',
+          siteThree: '',
+          wiki_url: 'https://en.wikipedia.org/wiki/Italy'
         },
       ]);
     });

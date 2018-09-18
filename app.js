@@ -1,17 +1,18 @@
 const express = require('express')
-const app = express()
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const port = parseInt(process.env.PORT || 3000)
+const languages = require('./routes/languages')
+const countries = require('./routes/countries')
 
-//This will be for the routes
-// const players = require('./routes/players')
+const app = express()
 
 app.use(cors())
 app.use(bodyParser.json())
 
-//THis is also for the routes
-// app.use('/players', players)
+//Routes
+app.use(languages)
+app.use(countries)
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

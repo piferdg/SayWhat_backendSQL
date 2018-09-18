@@ -4,9 +4,11 @@ exports.up = function(knex, Promise) {
     table.increments()
     table.text('countryName')
     table.text('currency')
-    table.text('attractionOne')
-    table.text('attractionTwo')
-    table.text('attractionThree')    
+    table.text('primary_language')
+    table.text('siteOne')
+    table.text('siteTwo')
+    table.text('siteThree')
+    table.text('wiki_url')    
   })  
 };
 

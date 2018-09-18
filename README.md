@@ -1,5 +1,4 @@
-# "SayWhat?" - backend   
-## Translation and Travel app
+# "SayWhat?" Translation and Travel app - backend   
 
 ## Deployed links:
 ### Link to all languages and their ISO codes:
